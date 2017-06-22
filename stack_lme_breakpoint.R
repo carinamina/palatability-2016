@@ -1,6 +1,9 @@
 df = read.csv("https://raw.githubusercontent.com/carinamina/palatability-2016/master/stack_lme_breakpoint.csv", header=TRUE)
 
-#The experiment was measuring leaf mass for plants from populations collected at ten different latitudes. I measured multiple individuals per maternal line, and multiple maternal lines per population. There are not replicate populations per latitude. So I need to have some nested random effects to block plants by maternal lines nested in populations. 
+#The experiment was measuring leaf mass for plants from populations collected at ten different latitudes. 
+#I measured multiple individuals per maternal line, and multiple maternal lines per population. 
+#There are not replicate populations per latitude. 
+#So I need to have some nested random effects to block plants by maternal lines nested in populations. 
 #I am interested in whether there is a latitudinal threshold in the response.
 
 ###########
